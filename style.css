@@ -3,6 +3,14 @@ body {
   color: #333;
   font-family: "Josefin sans", sans-serif;
   margin: 0;
+  padding: 0;
+}
+p {
+  font-weight: 300;
+}
+h2,
+h1 {
+  font-weight: 400;
 }
 .image-container {
   position: relative;
@@ -15,13 +23,10 @@ body {
 }
 .overlay {
   position: absolute;
-  right: 10%;
   top: 20%;
-  width: auto;
-  height: 22.125rem;
+  right: 10%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: flex-end;
   color: white;
   text-align: end;
@@ -31,32 +36,27 @@ body {
   font-size: 4rem;
   margin-bottom: 1rem;
   padding-bottom: 2rem;
-  font-weight: 400;
 }
 .overlay span {
   margin-right: -1.5rem;
 }
 
 .overlay button {
-  background-color: transparent;
+  background: transparent;
   color: white;
   border: 2px solid white;
   padding: 16px 41px;
   font-size: 20px;
-  line-height: 14px;
   cursor: pointer;
   margin-right: -1.5rem;
 }
-
 .overlay button:hover {
   background-color: white;
   color: black;
 }
-header {
-  padding-top: 2.5rem;
-}
 
 .flex-container {
+  padding-top: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -71,7 +71,6 @@ header {
 
 .item p {
   font-size: 1.5rem;
-  font-weight: 300;
   color: #000000;
   margin-left: 1rem;
 }
@@ -79,11 +78,9 @@ header {
 footer {
   text-align: center;
   padding: 1rem;
-  font-family: "Josefin Sans", sans-serif;
 }
 
 footer h1 {
-  font-weight: 400;
   font-size: 2.188rem;
   line-height: 4.125rem;
 }
@@ -110,7 +107,6 @@ footer .product-container div p {
   font-size: 1.5rem;
   line-height: 1.25rem;
   text-align: start;
-  font-weight: 300;
 }
 
 @media (max-width: 480px) {
@@ -124,7 +120,6 @@ footer .product-container div p {
 
   .overlay h2 {
     font-size: 1.5rem;
-    font-weight: 400;
   }
 
   .overlay button {
